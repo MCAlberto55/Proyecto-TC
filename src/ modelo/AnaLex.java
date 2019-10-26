@@ -7,7 +7,7 @@ import java.util.List;
 
 public class AnaLex {
 	
-	//Lista de tokens. Aquí se encuentran los tokens en el orden del código fuente.
+	//Lista de tokens. AquÃ­ se encuentran los tokens en el orden del cÃ³digo fuente.
 	public static List<String> listaTokens = new ArrayList<String>();
 	//Matriz de identificadores.
 	public static List<List<String>> IDS = new ArrayList<List<String>>();
@@ -15,6 +15,8 @@ public class AnaLex {
 	public static List<List<String>> TXT = new ArrayList<List<String>>();
 	//Matriz de literales numericas. 
 	public static List<List<String>> VAL = new ArrayList<List<String>>();
+	//Lista de tokens
+	public static List<Token> listaObjetosToken = new ArrayList<Token>();
 	
 	private Clasificador clasificador;
 	
